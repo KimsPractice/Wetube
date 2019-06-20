@@ -1,0 +1,47 @@
+출처 : https://academy.nomadcoders.co
+
+1. What is NodeJS
+Javascript outside of the browser
+
+2.Where was Javascript designed to be
+In the browser
+
+3.On the frontend there is only one programming language
+True
+
+4.he programming language of the frontend is
+JavaScript
+
+5.On the backend there is only one programming language
+False
+
+6.If I don't like JS I can choose any other language for the frontend
+False
+
+7.If I don't like JS I can choose any other language for the backend
+True
+
+8.How can I use Javascript on the backend
+With NodeJS
+
+9.NodeJS comes with a lot of pre-built functionality out of the box
+False
+
+10.The difference between NodeJS and Django is
+Django is like a big toy that I have to learn how to use and Node is like a lego set that I can build piece by piece
+
+11.NodeJS is great for real-time application
+True
+
+12.NodeJS is great for CRUD (Create, Read, Update, Delete) applications
+True
+
+13.NodeJS is great for hardware intensive applications
+False
+
+14.Youtube uses NodeJS to compress video
+False
+
+15.Uber uses NodeJS to record the GPS locations of the drivers 
+True
+

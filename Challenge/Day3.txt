@@ -1,0 +1,56 @@
+출처 : https://academy.nomadcoders.co
+
+1.A server is just a compute
+True
+
+2.A server has to be online 24/7
+True
+
+3.A server can be on a private network
+True
+
+4.A server is a computer without network access
+False
+
+5.Any computer can be a server
+True
+
+6.What is a framework
+Lots of pre-made functions and utilities that somebody else wrote and that we can use
+
+7.How does a framework help us
+It helps us accomplish complex things in few lines of code
+
+8.What is the most popular NodeJS Framework
+ExpressJS
+
+9.ExpressJS is not JS
+False
+
+10.What does NPM stand for
+Node Package Manager
+
+11.What is NPM
+Is a tool to download and share NodeJS packages
+
+12.ExpressJS is published as an NPM Pacakge
+True
+
+13.How can I create a NodeJS project
+Create a package.json
+ 
+14.What is "package.json"
+Is a file where I save information about my project and the packages it needs to run
+
+15.How can I install Express
+npm install express
+
+16.What is the node_modules folder
+Is where all the installed packages go
+
+17.Why I should never share / upload my "node_modules"
+Because I can just share the package.json
+ 
+18.If I delete "node_modules" how can I reinstall my dependencies from my package.json
+Running: "npm install"
+
