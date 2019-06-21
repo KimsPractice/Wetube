@@ -1,0 +1,23 @@
+출처 : https://academy.nomadcoders.co
+
+Challenge goals:
+
+Using the provided blueprint build a server that has the following routes:
+
+/
+/join
+/login
+/confirm-account
+/courses,
+/courses/new,
+/courses/mine
+/api/documentation
+/api/v1/buy
+/api/v1/refund
+/api/v2/remove
+/api/v2/edit
+
+Conditions
+
+Those URLs should be divided in 5 different routers. Each route needs to have a controller function imported from a "controllers" file.
+Anonymous functions are not allowed

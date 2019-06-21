@@ -1,6 +1,3 @@
-//문제출처 : https://academy.nomadcoders.co
-//코드는 직접 작성
-
 import express from "express";
 
 const app = express();
