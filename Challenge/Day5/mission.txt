@@ -2,7 +2,7 @@
 
 Challenge goals:
 
-Using the provided blueprint build a server that has the following routes:
+- Using the provided blueprint build a server that has the following routes:
 
 /
 /join
@@ -19,5 +19,5 @@ Using the provided blueprint build a server that has the following routes:
 
 Conditions
 
-Those URLs should be divided in 5 different routers. Each route needs to have a controller function imported from a "controllers" file.
-Anonymous functions are not allowed
+- Those URLs should be divided in 5 different routers. Each route needs to have a controller function imported from a "controllers" file.
+- Anonymous functions are not allowed
