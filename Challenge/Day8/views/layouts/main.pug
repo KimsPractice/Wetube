@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    //-
+      On the <head> each page has to have a <title> with the title of the page and the title of the website
+    title #{pageTitle} | #{siteName}
+  body
+    main
+      block content
+    //-
+      The layout should contain the <head> portion of the page and a <footer> partial.
+    include ../partials/footer

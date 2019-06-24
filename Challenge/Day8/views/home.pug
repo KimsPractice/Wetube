@@ -1,0 +1,9 @@
+//-
+  All templates should extend from a layout
+  The title of the page and the website should not be written on the template.
+extends layouts/main
+
+block content
+  //-
+    On the <body> each page has to have a <h1> with the title of the page.
+  h1 #{pageTitle}
