@@ -1,31 +1,31 @@
 출처 : https://academy.nomadcoders.co
 
-1.What is frontend development *
+1. What is frontend development *
 
 Making the web interfaces that the user sees and interacts with
 
  
-2.What is backend development *
+2. What is backend development *
 
 Making the logic and data structures behind websites or applications
  
-3.What is the difference between a frontend and a fullstack developer? *
+3. What is the difference between a frontend and a fullstack developer? *
 
 Frontend devs only build what the users sees
  
-4.Why is fullstack development so attractive for programmers? *
+4. Why is fullstack development so attractive for programmers? *
 
 Because one developer can build a full service by him/her self
  
-5.What is the most popular language for Fullstack Developers *
+5. What is the most popular language for Fullstack Developers *
 
 JavaScript
  
-6.I can build an iOS & Android App with React Native *
+6. I can build an iOS & Android App with React Native *
 
 Yes
  
-7.What is ElectronJS *
+7. What is ElectronJS *
 
 A tool to build Multi Platform Desktop Apps with Web Languages
  
@@ -33,10 +33,10 @@ A tool to build Multi Platform Desktop Apps with Web Languages
 
 Webapps are interactive and Websites are not
   
-9.CNN.com is a good example of a Webapp *
+9. CNN.com is a good example of a Webapp *
 
 No
  
-10.Slack is a good example of a Webapp *
+10. Slack is a good example of a Webapp *
 
 Yes

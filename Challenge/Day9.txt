@@ -1,0 +1,57 @@
+출처 : https://academy.nomadcoders.co
+
+1. What are the three arguments that middlewares have?
+
+request, response, next
+
+2. What does the 'next' function do?
+
+It calls the next middleware
+
+3. Routes are middlewares
+
+True
+
+4. What is the difference between 'routes' and 'middlewares'
+
+A route is just a middleware that doesn't call "next" but uses "res" to terminate the connection.
+
+5. How can I make a middleware be used in ALL the routes?
+
+Using "app.use(<MIDDLEWARE>)"
+
+6. How can a middleware terminate a connection
+
+Using "res.end()"
+
+7. What is the use of express.Router
+
+It allows us to break down our routes in small groups
+
+8. How can I include a Router in my app? 
+
+Using "app.use(<ROUTER>)"
+
+9. What is the difference between "app.get" and "app.use"
+
+"app.get" is only called for GET requests, "app.use" is called for ALL requests
+
+10. What does MVC mean
+
+Model View Controller
+
+11. What is the M in MVC?
+
+Is what stores the data
+
+12. What is the V in MVC?
+
+Is what we show to the user
+
+13. What is the C in MVC?
+
+Is what handles the logic
+
+14. MVC is something I can install
+
+No, it's just a pattern
