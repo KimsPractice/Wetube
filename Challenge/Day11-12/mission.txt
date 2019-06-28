@@ -1,0 +1,50 @@
+출처 : https://academy.nomadcoders.co
+
+Super Controllers!
+
+코딩챌린지 소개
+
+Day 9 Blueprint | 코드샌드박스 시작하기
+
+- 샌드박스 안에 db.js 라는 이름의 파일이 있습니다. 그 파일은 영화의 DB를 시뮬레이트 합니다. 아래와 같은 4개 함수를 export 합니다.
+- 샌드박스 안에 movieController.js 그리고 movieRouter.js 가 있으며, 이는 3개의 routes 와 3개의 controllers 를 갖고있습니다.
+- Controllers와 Routers를 추가하거나 제거해서는 안됩니다. 단 3가지만으로 아래 챌린지를 수행할 수 있어요.
+
+getMovies,
+getMovieById,
+getMovieByMinimumRating,
+getMovieByMinimumYear
+
+함수 4개에 대한 설명은 아래와 같습니다.
+
+- getMovies returns an array of movies, console.log the result to see the shape of the object.
+- getMovieById returns a movie object. It requires an ID as an argument and if no movie is found it returns undefined
+- getMovieByMinimumRating returns an array of movies, it requires a number, with this number the function will return an array of movies with a rating equal or higher than the number.
+- getMovieByMinimumYear returns an array of movies, it requires a number, with this number the function will return an array of movies with a release date equal or higher than the number.
+
+코딩챌린지 수행조건
+
+- Complete all the controllers
+- Use pug and mixins to render pages and loop over the movies list
+- Use templates
+- You can only have 3 .pug pages. movies.pug, 404.pug, detail.pug
+- **Use middlewares to add locals like (siteTitle)
+
+아래 3개의 페이지를 만드세요.
+
+(1) Home page (/):
+- Render to movies.pug
+- The home controller has to render a page with all the movies from the db.
+- Use mixins to render the movies
+- Use the function getMovies.
+
+(2) Movie Detail (/1234):
+- Render detail.pug
+- When I click on the title of the movie I should go to /:id, for example, /1234, that page should render a detail of the movie. Use the function getMovieById. Render the title of the movie, the synopsis, and loop over the genres of the movie.
+- If no movie is found you need to render a 404.pug.
+
+(3) Movie Filtering (/filter?year=2010, /filter?rating=7.8):
+- Render movies.pug
+- Use mixins to render the list
+- You have to get the query from the URL and find out if the user is filtering by year or rating.
+- You have to use getMovieByMinimumYear and getMovieByMinimumRating

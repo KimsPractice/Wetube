@@ -1,0 +1,11 @@
+include mixinVideo
+
+title=siteTitle
+
+h1 Movies!
+a(href=":id")
+    each movie in movies
+      +videoBlock({
+        title:movie.title,
+        id:movie.id
+      })
