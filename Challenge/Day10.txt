@@ -1,0 +1,49 @@
+출처 : https://academy.nomadcoders.co
+
+1. How can we make express use pug as the view engine
+
+Using "app.set("view engine", "pug")
+
+2. What is the default directory where express will look for the views
+
+/views
+
+3. How can I change the default views directory to "/dist"
+
+Using "app.set("views", "/dist")"
+
+4. How can I render a pug template from a controller
+
+Using "res.render(<TEMPLATE_NAME>)"
+
+5. How can I reuse the same page structure using pug
+
+Creating templates and extending from them
+
+6. What is a partial 
+
+It's a piece of HTML code that I can reuse on pug
+
+7. How can I use the partial "footer.pug" inside of my "layout.pug"
+
+Using "include ./footer"
+
+8. What is a "block" in pug
+
+It's a way of making space for dynamic content inside of a template
+
+9. How can I do <span class="hello"> in pug
+
+span.hello
+
+10. Doing ".hello" is the same as doing "div.hello" in pug
+
+True
+
+11. How can we add information to all the templates at the same time
+
+Using res.locals
+
+12. How can I render a template with a variable "name" from the controller
+
+Using "res.render(<TEMPLATE>, { name:"Nico"})"
