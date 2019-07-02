@@ -1,0 +1,65 @@
+출처 : https://academy.nomadcoders.co
+
+1. On a controller how can I get the ID on a route like: "/user/:id"
+
+Using req.params.id
+
+2. On a controller how can I get the ID on a route like: "/user?id=123"
+
+Using req.query.id
+
+3. What's the difference between a method="post" and method="get" on an form
+
+method="get" sends the data of the form on the url and method="post" sends it hidden from the user
+
+4. What are mixins for
+
+Mixins are useful when I want to reuse some HTML block that has same structure but different data
+
+5. MongoDB is a SQL Database
+
+False
+
+6. Mongo is the same as Mongoose
+
+False
+
+7. What is the difference between Mongo and Mongoose
+
+Mongo is a database, Mongoose is how we talk to the database using JS
+
+8. What is the point of using dotenv
+
+To be able to hide strings from the version control systems
+
+9. What is a Schema
+
+Is an object that tells Mongoose the shape of the data that we will save
+ 
+10. It's a good practice so save files on a database
+
+False
+
+11. If I want to save a file what should I do
+
+Save a link to the location of the file on the database
+
+12. What does Mongo store?
+
+JSON Documents
+
+13. What is the "ObjectId" type for?
+
+To tell Mongoose that here we are gonna save an ID of a different Model
+
+14. What is the difference between Date.now and Date.now() when adding a "createdAt" to a model
+
+Date.now() executes the function immediately, Date.now waits for the function to be called.
+
+15. What does "mongoose.model("Movie", MovieSchema)" do
+
+It tells Mongoose that the "Movie" model will have the shape of the MovieSchema
+
+16. On the video #3.4 why did we import the models in the init.js file 
+
+Because we need to make the mongoose connection 'aware' of the Models that we will save in the future.
