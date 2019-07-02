@@ -26,7 +26,7 @@ getMovieByMinimumYear
 
 - Complete all the controllers
 - Use pug and mixins to render pages and loop over the movies list
-- Use templates
+- Use templates X
 - You can only have 3 .pug pages. movies.pug, 404.pug, detail.pug
 - **Use middlewares to add locals like (siteTitle)
 

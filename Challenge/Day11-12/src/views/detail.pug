@@ -1,9 +1,12 @@
-h1=findMovie.title
-span=findMovie.synopsis
-ul
-  each genre in findMovie.genres
-    li=genre
+extends templates/layout
 
-a(href="/")
-          button Home
+block content
+  h1=findMovie.title
+  span=findMovie.synopsis
+  ul
+    each genre in findMovie.genres
+      li=genre
+
+  a(href="/")
+            button Home
 

@@ -1,11 +1,11 @@
-include mixinVideo
+extends templates/layout
+include mixins/mixinVideo
 
-title=siteTitle
-
-h1 Movies!
-a(href=":id")
-    each movie in movies
-      +videoBlock({
-        title:movie.title,
-        id:movie.id
-      })
+block content
+  h1 Movies!
+  a(href=":id")
+      each movie in movies
+        +videoBlock({
+          title:movie.title,
+          id:movie.id
+        })
