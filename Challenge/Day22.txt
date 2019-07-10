@@ -1,0 +1,45 @@
+출처 : https://academy.nomadcoders.co
+
+1. What is Webpack?
+
+A module bundler
+
+2. What is the difference between the packages 'webpack' and 'webpack-cli'?
+
+'webpack' is the package we use in a file and 'webpack-cli' is a package we use in the console
+
+3. How many scripts can I have inside my "scripts" in package.json?
+
+As many as I want
+
+4. What is the default file that webpack looks for when we call it?
+
+webpack.config.js
+
+5. "path" is an utility installed by default with NodeJS
+
+True
+
+6. What is the difference between "entry" and "output" in Webpack
+
+"entry" is a path to the root file of our app and "output" is a path to the directory where all the transformed assets should go.
+
+7. What is the function of the "modules" object in Webpack
+
+It allows us to specify different transformations for different file formats.
+
+8. How do we teach webpack how to transform the files?
+
+Using loaders
+
+9. Where do we write all the transform instructions for webpack?
+
+In the 'rules' array inside of the 'modules' object
+
+10. How many loaders can we have inside of one rule
+
+Min. 1, Max Infinite
+
+11. How are loaders used in webpack
+
+From last to first
