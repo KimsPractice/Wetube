@@ -1,0 +1,12 @@
+extends template/layout
+
+block content
+  form(action="/create" method="post")
+      
+        input(type="text", name="title" placeholder="title" style="display:block")
+        div
+          input(type="number", name="year" placeholder="year" min="0" max="9999"  )
+          input(type="number", name="rating" placeholder="rating" min="0" max="10" )
+        input(type="text", name="genre" placeholder="genre separate by ','" style="display:block")
+        textarea(name="snopsis", cols="30", rows="10" placeholder="snopsis" style="display:block")
+        input(type="submit", value="Upload")

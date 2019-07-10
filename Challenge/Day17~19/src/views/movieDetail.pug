@@ -1,0 +1,11 @@
+extends template/layout
+
+block content
+    h1=movie.title
+    div=movie.year
+    div=movie.rating
+    ul
+      each potato in movie.genre
+        li=potato
+    p=movie.snopsis
+    a(href=`/${movie.id}/edit`) Edit Video

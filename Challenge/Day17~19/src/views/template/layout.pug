@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title=siteTitle
+  body
+    div
+      form(action="/search", method="get")
+          select(name="condition")
+            option rating
+            option year
+            option term
+          input(type="text", name="term" placeholder="Search by ...")
+          input(type="submit", value="Search")
+    main
+      block content
