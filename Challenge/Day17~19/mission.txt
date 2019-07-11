@@ -1,0 +1,28 @@
+출처 : https://academy.nomadcoders.co
+
+Mongoose Time!
+
+Challenge
+
+Using Mongoose, create a CRUD (Create, Read, Delete, Update) Application for Movies.
+The routes you have to make are:
+
+/ <-- See all Movies
+/create <-- Create a movie (html form)
+/:id <-- See movie by id
+/:id/edit <-- Edit movie by ID
+/:id/delete <-- Delete movie by ID
+/search <-- Search movies
+
+On the line 12 of models/Movie.js you have to create a complete schema for your movie model.
+The schema should have the fields id. title, year, rating, sysnopsis, genre[], uploadedAt.
+All the fields are required.
+You need to validate that the year is a number.
+You need to validate that the title is al least 3 characters long.
+When I create a movie I should be redirected to the detail page of that movie.
+When a moive is not found I should see a 404
+When I delete a movie I should be redirected to the home page.
+On the /search page I should be able to filter by /search?year=1900 or /search?ration=9.6
+
+
+
