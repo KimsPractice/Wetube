@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title Multer Practice
+  body
+    main
+      form(action="/", method="post" enctype="multipart/form-data")
+        input(type="file", name="testFile")
+        input(type="submit", value="업로드")
+      
+      div
+        if result
+          span=result
+        

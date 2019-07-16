@@ -1,0 +1,41 @@
+출처 : https://academy.nomadcoders.co
+
+1. What is PassportJS
+
+It's an authentication middleware
+
+2. What is a Strategy in PassportJS
+
+It's an authentication mechanism
+
+3. What is a Provider in PassportJS
+
+It's an external website that will authenticate the user
+
+4. Where does passport store the sessions
+
+Cookies
+
+5. How often are cookies sent to the server? 
+
+Every Request
+
+6. What is the name of the Strategy for username/password auth in Passport
+
+"local"
+
+7. What is serialization in PassportJS
+
+Is a function where we can decide what information the cookie will have
+
+8. What is deserialization in PassportJS
+
+Is a function where we turn the cookie into an user object
+
+9. After deserialization, how does passport gives us the user object?
+
+It puts it in 'req.user'
+
+10. What happens if we don't use a CookieStore
+
+The cookies will not be persistent
