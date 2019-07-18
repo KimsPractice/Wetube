@@ -1,0 +1,22 @@
+출처 : https://academy.nomadcoders.co
+
+Voice Recorder
+
+Challenge:
+Using the blueprint and based on what you saw on the videos, build a voice recorder. 
+
+Record / Stop Recording Button. Should start/stop recording
+Time indicator of the recording's progress in seconds
+When I stop recording trigger a download the file
+
+Notes
+
+Don't use Async/Await
+
+Reference Links
+
+MediaRecorder
+
+Help
+
+When saving the audio use {type:"audio/webm;codecs=opus"}
