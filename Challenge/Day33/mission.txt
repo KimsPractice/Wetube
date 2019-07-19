@@ -1,0 +1,10 @@
+출처 : https://academy.nomadcoders.co
+
+Locate Me Ajax!
+
+Challenge:
+Call this URL with AJAX, that URL returns information about your location.
+
+Call the URL when the page loads
+Show me an indicator when the request is happening
+When the data comes, show me my location on the HTML
