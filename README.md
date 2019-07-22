@@ -12,6 +12,7 @@
 - Day 13,14 -weekend (6/29, 6/30)
 - Day 20,21 -weekend (7/06, 7/07)
 - Day 27,28 -weekend (7/13, 7/14)
+- Day 34,35 -weekend (7/20, 7/21)
 
 ## Pages:
 
