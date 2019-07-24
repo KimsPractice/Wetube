@@ -5,6 +5,7 @@ const LOGOUT = "/logout";
 const SEARCH = "/search";
 
 const USERS = "/users";
+const ME = "/me";
 const USER_DETAIL = "/:id";
 const EDIT_PROFILE = "/edit-profile";
 const CHANGE_PASSWORD = "/change-password";
@@ -58,7 +59,8 @@ const routes = {
     }
   },
   github: GITHUB,
-  githubCallback: GITHUB_CALLBACK
+  githubCallback: GITHUB_CALLBACK,
+  me: ME
 };
 
 export default routes;
