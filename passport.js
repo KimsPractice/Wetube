@@ -1,12 +1,12 @@
 import passport from "passport";
 import User from "./models/User";
-import githubStrategy from "passport-github";
+import GithubStrategy from "passport-github";
 import { githubLoginCallback } from "./Controllers/userController";
 import routes from "./routes";
 
 passport.use(User.createStrategy());
 passport.use(
-  new githubStrategy(
+  new GithubStrategy(
     {
       clientID: process.env.GH_ID,
       clientSecret: process.env.GH_SECRET,

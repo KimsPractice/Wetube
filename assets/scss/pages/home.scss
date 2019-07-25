@@ -1,7 +1,9 @@
 .home-videos {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin: 15px;
+
   .videoBlock {
     padding: 15px;
   }

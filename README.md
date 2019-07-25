@@ -26,3 +26,7 @@
 - [x] Upload
 - [x] Video Detail
 - [x] Edit Video
+
+##NOTICE
+
+    FACEBOOK로그인 기능 링크문제로 추후 추가예정
