@@ -20,7 +20,7 @@
 - [x] Join
 - [x] Login
 - [x] Search
-- [ ] User Detail
+- [x] User Detail
 - [ ] Edit Profile
 - [ ] Change Password
 - [x] Upload
@@ -29,4 +29,5 @@
 
 ##NOTICE
 
-    FACEBOOK로그인 기능 링크문제로 추후 추가예정
+    - 7/23 ~ 7/26 클론완료 및 댓글삭제기능 추가
+    - FACEBOOK로그인 기능 링크문제로 추후 추가예정
