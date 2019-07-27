@@ -21,13 +21,13 @@
 - [x] Login
 - [x] Search
 - [x] User Detail
-- [ ] Edit Profile
-- [ ] Change Password
+- [x] Edit Profile
+- [x] Change Password
 - [x] Upload
 - [x] Video Detail
 - [x] Edit Video
 
 ##NOTICE
 
-    - 7/23 ~ 7/26 클론완료 및 댓글삭제기능 추가
+    - Day37~42 클론완료 및 댓글삭제기능 추가
     - FACEBOOK로그인 기능 링크문제로 추후 추가예정
