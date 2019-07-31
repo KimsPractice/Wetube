@@ -6,7 +6,6 @@ export const getJoin = (req, res) => {
   res.render("join", { pageTitle: "Join" });
 };
 export const postJoin = async (req, res, next) => {
-  console.log(req.body);
   const {
     body: { name, email, password, password2 }
   } = req;
@@ -14,7 +13,6 @@ export const postJoin = async (req, res, next) => {
     res.status(400);
     res.render("join", { pageTitle: "Join" });
   } else {
-    //To Do: Register User
     try {
       const user = await User({
         name,
@@ -26,8 +24,6 @@ export const postJoin = async (req, res, next) => {
       console.log(error);
       res.redirect(routes.home);
     }
-
-    //To Do: Log user in
   }
 };
 export const getLogin = (req, res) => {
@@ -54,7 +50,6 @@ export const githubLoginCallback = async (
   } = profile;
   try {
     const user = await User.findOne({ email });
-    console.log(user);
     if (user) {
       user.githubId = id;
       user.save();
@@ -86,8 +81,9 @@ export const userDetail = async (req, res) => {
   const {
     params: { id }
   } = req;
+
   try {
-    const user = await User.findById(id);
+    const user = await User.findById(id).populate("videos");
     res.render("userDetail", { pageTitle: "User Detail", user });
   } catch (error) {
     res.redirect(routes.home);
