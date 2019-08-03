@@ -2,6 +2,8 @@
 
 - Cloning Youtube with Vanilla and NodeJS
 
+=================================
+
 ## Challenge Schedule
 
 - 6/17 ~ 7/28
@@ -31,3 +33,4 @@
 
     - Day37~42 클론완료 및 댓글삭제기능 추가
     - FACEBOOK로그인 기능 링크문제로 추후 추가예정
+    - 강의 완료 후 챌린지 과제 리팩토링 예정
