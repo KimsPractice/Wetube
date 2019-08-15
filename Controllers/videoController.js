@@ -1,7 +1,6 @@
 import routes from "../routes";
 import Video from "../models/Video";
 import Comment from "../models/Comment";
-import { connect } from "mongoose";
 
 export const home = async (req, res) => {
   try {
@@ -51,6 +50,7 @@ export const videoDetail = async (req, res) => {
   const video = await Video.findById(id)
     .populate("creator")
     .populate("comments");
+
   res.render("videoDetail", { pageTitle: video.title, video });
 };
 
@@ -124,9 +124,6 @@ export const postAddComment = async (req, res) => {
     body: { comment },
     user
   } = req;
-  console.log(comment);
-  console.log(user.id);
-  console.log(id);
 
   try {
     const video = await Video.findById(id);
@@ -138,6 +135,29 @@ export const postAddComment = async (req, res) => {
     video.save();
   } catch (error) {
     console.log("postAddComment :" + error);
+    res.status(400);
+  } finally {
+    res.end();
+  }
+};
+
+export const postDeleteComment = async (req, res) => {
+  const {
+    params: { id }
+  } = req;
+
+  try {
+    const comment = await Comment.findById(id);
+    console.log(comment);
+
+    if (comment.creator != req.user.id) {
+      throw Error();
+    } else {
+      await Comment.findOneAndRemove({ _id: id });
+    }
+    res.status(200);
+  } catch (error) {
+    console.log("postDeleteComment : " + error);
     res.status(400);
   } finally {
     res.end();
